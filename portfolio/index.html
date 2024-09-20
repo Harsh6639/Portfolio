@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harsh-developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 90px;
+            background-color: rgb(18, 18, 62);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(151, 66, 230);
+            font-size: 1.03rem;
+        }
+
+        main hr {
+            border: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 150px 0;
+        }
+
+        .firstSection>div {
+            width: 30%;
+
+        }
+
+        .leftSection {
+            width: 33%;
+            font-size: 3rem;
+            margin: 80px 0;
+        }
+
+        .rightSection {
+            width: 150%;
+            margin: 0px 0
+        }
+
+        .purple {
+            color: rgb(126, 55, 193);
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        #element {
+            color: rgb(126, 55, 193);
+        }
+
+        .second.Section {
+            max-width: 80vw;
+            margin: auto;
+            font-size: 1.3rem;
+            height: 80vh;
+        }
+
+        .second.Section h1 {
+            font-size: 1.9rem;
+        }
+
+        .second.Section .box {
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .second.Section .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 100px;
+        }
+
+        .image-top {
+            position: relative;
+            top: -53px;
+            width: 39px;
+            left: -16px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 58px;
+            width: 150px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 78px;
+            color: gray;
+            width: 150px;
+            font-size: 9px;
+        }
+        .about-section {
+    padding: 40px;
+    /* background-color: #f9f9f9; Light background for contrast */
+    text-align: center;
+}
+
+.about-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+.about-section ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+}
+
+.about-section li {
+    font-size: 1em;
+}
+.contact-section {
+    padding: 40px;
+    /* background-color: #f9f9f9; Light background for contrast */
+    text-align: center;
+}
+
+.contact-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.contact-section p {
+    font-size: 1.1em;
+    margin: 10px 0;
+}
+
+.contact-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-section label {
+    margin: 10px 0 5px;
+}
+
+.contact-section input, .contact-section textarea {
+    width: 100%;
+    max-width: 400px; /* Adjust the max width as needed */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-section button {
+    padding: 10px 20px;
+    background-color: #007BFF; /* Bootstrap primary color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-section button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+
+    </style>
+    
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Harsh's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="">About</a></li>
+                    
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Harsh</span>
+                <div>and I'm a passionate</div>
+                <span id="element"></span>
+            </div>
+            <div class="rightSection">
+                <img src="background.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section>
+
+            <section id="about" class="about-section">
+                <div class="container">
+                    <h2>About Me</h2>
+                    <p>Hello! I'm Harsh Gohil, a passionate Web and Software Developer with experience in many programming languages. I have worked on various projects, including [briefly mention notable projects or experiences]. My goal is to continuously learn and grow in my field while delivering high-quality work.</p>
+                    <p>Digital product and tech website design is something I like to do. I graduated with a master's degree in software engineering from Cleveland State University in 2021 after completing my bachelor's degree in computer engineering. A list of the projects I personally worked on is provided below, demonstrating my interest in this area.</p>
+                    <br>
+                    <h3>Skills</h3>
+                    <div>Programming Languages: Java (Proficient) |C/C++ |Python |Retrofit |C# 
+                        </div>
+                        <div>AI/ML Tools: Android ML Kit | TensorFlow Lite | Activity Life cycle | Rest APIs | GraphQL</div>
+                        <div>Project Methodologies: Waterfall, Agile</div>
+                        <div>Scripting Languages: MVC | MVVM | Flutter | C/C++ | Python |Retrofit | HTML | CSS | JavaScript | PHP</div>
+                        <div>Technologies: Cloud-server AWS | Third party Libraries | Oracle</div>
+                        <div>Front/Back-end Tools: RxJava | Dagger | Dependency Injection | Material design | Firebase | MYSQL</div>
+                        <div>Configuration Management Tools: | JIRA | Figma | Junit |Espresso | GitHub | Test Driven Development | SOLID</div>
+                        <div>Technical Skills: .NET Framework, database management principles, data security measures, permissions, recovery, and monitoring.</div>
+                        <div>Others: Visual Studio | Eclipse | NetBeans |WordPress | IntelliJ IDEA | Android Studio | Xcode | Atom | Netsuite integration(ERP)</div>
+                   
+                </div>
+            </section>
+            
+
+
+<hr>
+
+
+<section class="second Section">
+                <span class="text-gray">What I have done so far</span>
+                <h1>Projects</h1>
+
+                <div class="box">
+                    <div class="vertical">
+                        <img class="image-top" src="DEV.png" alt="">
+                        <div class="vertical-title">
+                            Amazon Clone app: Salease 
+                        </div>
+                        <div class="vertical-desc">
+                            •	Developed an e-commerce app utilizing emerging technologies, integrating with Stripe for payment processing while adhering to quality standards and test plans.
+                        </div>
+                        
+                    </div>
+                    <div class="vertical">
+                        <img class="image-top" src="DEV.png" alt="">
+                        <div class="vertical-title">
+                            Simple Android Game and Calculator: Tic Tac Toe, Calculator 
+                        </div>
+                        <div class="vertical-desc">
+                            •	Created a Java-based Android game employing best practices in game development, validating functionalities through testing and code reviews
+                        </div>
+                        
+                    </div>
+                    <div class="vertical">
+                        <img class="image-top" src="DEV.png" alt="">
+                        <div class="vertical-title">
+                            Registration user Login
+                        </div>
+                        <div class="vertical-desc">
+                            •	Utilizes a page where just have to create an account and log in.
+                            •	Implemented some information about me on the index page with the MySQL database.
+                            
+                        </div>
+                    </div>
+                    <div class="vertical">
+                        <img class="image-top" src="DEV.png" alt="">
+                        <div class="vertical-title">
+                            Restaurant-Management-System 
+                        </div>
+                        <div class="vertical-desc">
+                            •	Developed a comprehensive restaurant management app using core Java OOP concepts, focusing on scalability and an iterative design approach.
+                        </div>
+                    </div>
+                    <div class="vertical">
+                        <img class="image-top" src="DEV.png" alt="">
+                        <div class="vertical-title">
+                            I-Discuss forum website
+                        </div>
+                        <div class="vertical-desc">
+                            •	Designed a website using PHP, MySQL, HTML5, and CSS, enabling users to create, read, upload, and delete notes, ensuring compliance with operating procedures
+                        </div>
+                    </div>
+                    <div class="vertical">
+                        <img class="image-top" src="DEV.png" alt="">
+                        <div class="vertical-title">
+                            CRUD website
+                        </div>
+                        <div class="vertical-desc">
+                            •	Designed a website using PHP, MySQL, HTML5, and CSS, enabling users to create, read, upload, and delete notes, ensuring compliance with operating procedures
+                        </div>
+                    </div>
+                    
+                </div>
+
+            </section>
+            <hr>
+            <section>
+                <section id="contact" class="contact-section">
+                    <div class="container">
+                        <h2>Contact Me</h2>
+                        <p>If you had like to get in touch, please fill out the form below or reach me at:</p>
+                        <p>Email: <a href="harshgohil359@gmail.com">harshgohil359@gmail.com</a></p>
+                        <form action="your-form-handler.php" method="POST">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required>
+                
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                
+                            <button type="submit">Send Message</button>
+                        </form>
+                    </div>
+                </section>
+                
+            </section>
+        </section>
+        
+
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer.', 'Software Developer.', 'Fronted Developer.'],
+            typeSpeed: 50,
+        });
+    </script>
+    
+</body>
+
+</html>
